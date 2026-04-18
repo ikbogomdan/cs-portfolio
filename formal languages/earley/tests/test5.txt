@@ -1,0 +1,11 @@
+3 2 4
+SAB
+ab
+S -> a
+S -> AB
+B -> b
+A -> A
+S
+2
+a
+ab

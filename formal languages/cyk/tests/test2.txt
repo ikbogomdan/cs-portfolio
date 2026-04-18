@@ -1,0 +1,16 @@
+4 3 6
+ABCS
+abc
+S -> ABC
+A -> aA
+A -> 
+B -> bB
+B -> 
+C -> c
+S
+6
+abc
+c
+ac
+bc
+ab

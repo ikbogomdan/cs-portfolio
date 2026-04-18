@@ -1,0 +1,18 @@
+version: 1
+task_pipeline:
+  - name: "Copy private tests"
+    fail: never
+    run: "run_script"
+    args:
+      origin: ${{ global.temp_dir }}
+      script: "cp -r ${{ global.ref_dir }}/${{ task.task_sub_path }}/private/* ${{ global.temp_dir }}/${{ task.task_sub_path }}"
+  - name: "Test task"
+    fail: fast
+    run: "test_task"
+    args:
+      cwd: "${{ global.temp_dir }}/${{ task.task_sub_path }}"
+      libc_prohibited_functions:
+        - fopen
+        - fread
+        - fwrite
+        - fclose

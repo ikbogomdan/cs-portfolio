@@ -1,0 +1,3 @@
+version: 1
+structure:
+  private_patterns: ["*/private/*"]

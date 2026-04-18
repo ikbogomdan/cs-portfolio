@@ -1,0 +1,14 @@
+6 6 6
+SABCDE
+finish
+S -> A
+A -> B
+B -> C
+C -> D
+D -> E
+E -> finish
+S
+3
+finish
+finis
+fini

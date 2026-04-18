@@ -1,0 +1,13 @@
+1 2 3
+S
+ab
+S -> aSbS
+S -> bSaS
+S -> 
+S
+5
+aabb
+abab
+baab
+abba
+abb
